@@ -6,7 +6,7 @@
 # Version:      ver 1.2                                       #
 # Data:         16.6.2014                                     #
 # Author:       Arthur (Berserkr) Gareginyan                  #
-# Author URI:   http://mycyberuniverse.com/author.html        #
+# Author URI:   http://www.arthurgareginyan.com        #
 # Email:        arthurgareginyan@gmail.com                    #
 # License:      GNU General Public License, version 3 (GPLv3) #
 # License URI:  http://www.gnu.org/licenses/gpl-3.0.html      #
