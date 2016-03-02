@@ -41,3 +41,15 @@ Run the space_to_underscore.sh which placed in user home directory:
 ```
 ~/space_to_underscore.sh
 ```
+
+## Author
+
+Arthur Garegnyan aka Berserkr
+
+* Email: arthurgareginyan@gmail.com
+
+* GitHub: [https://github.com/ArthurGareginyan/](https://github.com/ArthurGareginyan/)
+
+* My Website: [http://www.arthurgareginyan.com](http://www.arthurgareginyan.com)
+
+* Donation Page: [http://www.arthurgareginyan.com/donate.html](http://www.arthurgareginyan.com/donate.html)
