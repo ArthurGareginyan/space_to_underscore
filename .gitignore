@@ -1,1 +1,9 @@
+# OS files
 .DS_Store
+Thumbs.db
+
+# Folders
+.svn
+
+# Extensions
+*.log
