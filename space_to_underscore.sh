@@ -23,7 +23,7 @@
 
 ####################### DIALOG ############################
 echo -en "\n BEWARE! Starting from current directory (`pwd`),"
-echo -en " files and directories with spaces in name  will be renamed automatically.\n"
+echo -en " files and directories with spaces in name will be renamed automatically.\n"
 echo -en "\n Press \"ENTER\" to continue or \"N\" to exit:"
 read ops
 case "$ops" in
