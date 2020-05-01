@@ -3,8 +3,9 @@
 # Name:         Space to Underscore                           #
 # Description:  Recursively replace spaces with underscores   #
 #               in file and directory names.                  #
-# Version:      ver 1.2                                       #
-# Data:         16.6.2014                                     #
+# Version:      ver 1.3                                       #
+# Released:     24.06.2014                                    #
+# Updated:      1.05.2020                                     #
 # Author:       Arthur Gareginyan                             #
 # Author URI:   https://www.arthurgareginyan.com              #
 # Email:        arthurgareginyan@gmail.com                    #
