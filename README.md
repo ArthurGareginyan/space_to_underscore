@@ -1,6 +1,6 @@
-# Recursively replace spaces with underscores in file and directory names
+# Recursively replace spaces with underscores (or vice versa) in file and directory names
 
-A safe solution to recursively replace spaces with underscores in file and directory names starting from the current directory.
+A safe solution to recursively replace spaces with underscores (or vice versa) in file and directory names starting from the current directory.
 
 
 ## Example
@@ -28,6 +28,8 @@ tree
 
 ## Usage
 
+> **Note!** To recursively replace underscores with spaces instead of spaces with underscores, follow the same steps, but using the `underscore_to_space.sh` file instead of `space_to_underscore.sh`.
+
 Give execute permissions:
 ```
 chmod +x space_to_underscore.sh
@@ -38,7 +40,7 @@ Go to needed directory:
 cd /home/user/example
 ```
 
-Run the space_to_underscore.sh which placed in user home directory:
+Run the `space_to_underscore.sh` which placed in user home directory:
 ```
 ~/space_to_underscore.sh
 ```
