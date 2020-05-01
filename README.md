@@ -46,6 +46,20 @@ cd /home/user/example
 ```
 
 
+## Contributing
+
+Welcome and thanks! I appreciate you taking the initiative to contribute to this project.
+
+Contributing isn’t limited to just code. I encourage you to contribute in the way that best fits your abilities, by writing tutorials, making translation to your native language, giving a demo at your local meetup, helping other users with their support questions, or revising  the documentation for this project.
+
+Please take a moment to read the guidelines in the [CONTRIBUTING.md](CONTRIBUTING.md). Following them helps to communicate that you respect the time of the other contributors to the project. In turn, they’ll do their best to reciprocate that respect when working with you, across timezones and around the world.
+
+
+## Security Vulnerabilities
+
+If you discover a security vulnerability within this script, please send an email to me. All security vulnerabilities will be promptly addressed.
+
+
 ## License
 
 This script is open-sourced software licensed under the [MIT](LICENSE.md) and is distributed free of charge.
