@@ -3,7 +3,7 @@
 # Name:         Underscore to Space                           #
 # Description:  Recursively replace underscores with spaces   #
 #               in file and directory names.                  #
-# Version:      ver 1.0                                       #
+# Version:      ver 1.3                                       #
 # Released:     1.05.2020                                     #
 # Updated:      1.05.2020                                     #
 # Author:       Arthur Gareginyan                             #
