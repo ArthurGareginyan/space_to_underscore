@@ -26,6 +26,7 @@ tree
     `-- yet_another_file_with_spaces.pdf
 ```
 
+
 ## Usage
 
 > **Note!** To recursively replace underscores with spaces instead of spaces with underscores, follow the same steps, but using the `underscore_to_space.sh` file instead of `space_to_underscore.sh`.
