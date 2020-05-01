@@ -30,17 +30,17 @@ tree
 
 > **Note!** To recursively replace underscores with spaces instead of spaces with underscores, follow the same steps, but using the `underscore_to_space.sh` file instead of `space_to_underscore.sh`.
 
-Give execute permissions:
+1. Give execute permissions:
 ```
 chmod +x space_to_underscore.sh
 ```
 
-Go to needed directory:
+2. Go to needed directory:
 ```
 cd /home/user/example
 ```
 
-Run the `space_to_underscore.sh` which placed in user home directory:
+3. Run the `space_to_underscore.sh` which placed in user home directory:
 ```
 ~/space_to_underscore.sh
 ```
