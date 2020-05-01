@@ -8,8 +8,8 @@
 # Author:       Arthur Gareginyan                             #
 # Author URI:   https://www.arthurgareginyan.com              #
 # Email:        arthurgareginyan@gmail.com                    #
-# License:      GNU General Public License, version 3 (GPLv3) #
-# License URI:  http://www.gnu.org/licenses/gpl-3.0.html      #
+# License:      MIT License                                   #
+# License URI:  http://opensource.org/licenses/MIT            #
 #=============================================================#
 
 #               	USAGE:

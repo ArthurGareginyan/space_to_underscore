@@ -2,6 +2,7 @@
 
 A safe solution to recursively replace spaces with underscores in file and directory names starting from the current directory.
 
+
 ## Example
 
 ```
@@ -42,9 +43,10 @@ Run the space_to_underscore.sh which placed in user home directory:
 ~/space_to_underscore.sh
 ```
 
+
 ## License
 
-This script is licensed under the [GNU General Public License, version 3 (GPLv3)](http://www.gnu.org/licenses/gpl-3.0.html) and is distributed free of charge.
+This script is open-sourced software licensed under the [MIT](LICENSE.md) and is distributed free of charge.
 
 Commercial licensing (e.g. for projects that can’t use an open-source license) is available upon request.
 
