@@ -5,6 +5,7 @@ A safe solution to recursively replace spaces with underscores (or vice versa) i
 
 ## Example
 
+Before:
 ```
 tree
 .
@@ -15,7 +16,7 @@ tree
     `-- yet another file with spaces.pdf
 ```
 
-becomes:
+After:
 ```
 tree
 .
