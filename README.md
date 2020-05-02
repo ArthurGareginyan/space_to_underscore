@@ -35,7 +35,7 @@ tree
 
 > **Note!** To recursively replace underscores with spaces instead of spaces with underscores, follow the same steps, but using the `underscore_to_space.sh` file instead of `space_to_underscore.sh`.
 
-1. Before you run the script, you must set the script executable permission:
+1. Before you run the script, you must set the script executable permission. This is done only once, before the very first run of the script.
 ```
 chmod +x space_to_underscore.sh
 ```
