@@ -1,11 +1,13 @@
-# Recursively replace spaces with underscores (or vice versa) in file and directory names
+# Space to Underscore - Shell script
 
-A safe solution to recursively replace spaces with underscores (or vice versa) in file and directory names starting from the current directory.
+`space_to_underscore.sh` is a safe solution to recursively replace spaces with underscores (or vice versa) in file and directory names, starting from the current directory and to any subdirectories.
 
+> Recursively - operating on a directory and its contents, including the contents of any subdirectories.
 
 ## Example
 
 Before:
+
 ```
 tree
 .
@@ -17,6 +19,7 @@ tree
 ```
 
 After:
+
 ```
 tree
 .
@@ -37,15 +40,17 @@ tree
 chmod +x space_to_underscore.sh
 ```
 
-2. Go to needed directory:
+2. Go to the directory where you want to rename files and directories recursively (starting from the current directory and to any subdirectories).
 ```
 cd /home/user/example
 ```
 
-3. Run the `space_to_underscore.sh` which placed in user home directory:
+3. Run the `space_to_underscore.sh`.
 ```
 ~/space_to_underscore.sh
 ```
+
+> **Note!** In the example above, the `space_to_underscore.sh` file is located in the user home directory (`~/`). Change it according to the location of the file in your case.
 
 
 ## Contributing
