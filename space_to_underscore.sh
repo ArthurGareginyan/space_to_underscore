@@ -49,34 +49,29 @@ for (( i = ${#array[@]}; i; ));
 do
     # Go in to catalog.
     pushd "${array[--i]}" >/dev/null 2>&1
-    # Search of all files in the current directory.
-    for name in *
+    # Only operate on files whose names contain spaces.
+    for name in "* *"
     do
-        # Check for spaces in names of files and directories.
-        echo "$name" | grep -q " "
-        if [ $? -eq 0 ]
+        # Replacing spaces with underscores.
+        newname=`echo $name | sed -e "s/ /_/g"`
+        if [ -e $newname ]
             then
-                # Replacing spaces with underscores.
-                newname=`echo $name | sed -e "s/ /_/g"`
-                if [ -e $newname ]
-                    then
-                        let "number_not +=1"
-                        echo " Not renaming: $name"
-                    else
-                        # Plus one to number.
-                        let "number += 1"
-                        # Message about rename.
-                        echo "$number Renaming: $name"
-                        # Rename.
-                        mv "$name" "$newname"
-                fi
+                let "number_not +=1"
+                echo " Not renaming: $name"
+            else
+                # Plus one to number.
+                let "number += 1"
+                # Message about rename.
+                echo "$number Renaming: $name"
+                # Rename.
+                mv "$name" "$newname"
         fi
     done
     # Go back.
     popd >/dev/null 2>&1
 done
 
-echo -en "\n All operations is complited."
+echo -en "\n All operations is completed."
 
 if [ "$number_not" -ne "0" ]
     then
