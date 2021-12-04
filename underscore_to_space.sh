@@ -49,27 +49,22 @@ for (( i = ${#array[@]}; i; ));
 do
     # Go in to catalog.
     pushd "${array[--i]}" >/dev/null 2>&1
-    # Search of all files in the current directory.
-    for name in *
+    # Only operate on files whose names contain underscores.
+    for name in *_*
     do
-        # Check for underscores in names of files and directories.
-        echo "$name" | grep -q "_"
-        if [ $? -eq 0 ]
+        # Replacing underscores with spaces.
+        newname=`echo $name | sed -e "s/_/ /g"`
+        if [ -e $newname ]
             then
-                # Replacing underscores with spaces.
-                newname=`echo $name | sed -e "s/_/ /g"`
-                if [ -e $newname ]
-                    then
-                        let "number_not +=1"
-                        echo " Not renaming: $name"
-                    else
-                        # Plus one to number.
-                        let "number += 1"
-                        # Message about rename.
-                        echo "$number Renaming: $name"
-                        # Rename.
-                        mv "$name" "$newname"
-                fi
+                let "number_not +=1"
+                echo " Not renaming: $name"
+            else
+                # Plus one to number.
+                let "number += 1"
+                # Message about rename.
+                echo "$number Renaming: $name"
+                # Rename.
+                mv "$name" "$newname"
         fi
     done
     # Go back.
