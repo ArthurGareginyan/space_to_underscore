@@ -76,16 +76,16 @@ do
     popd >/dev/null 2>&1
 done
 
-echo -en "\n All operations is complited."
+echo -en "\n All operations are completed.\n"
 
 if [ "$number_not" -ne "0" ]
     then
-        echo -en "\n $number_not not renamed."
+        echo -en "\n $number_not not renamed.\n"
 fi
 
 if [ "$number" -eq "0" ]
     then
-        echo -en "\n Nothing been renamed.\n"
+        echo -en "\n Nothing has been renamed.\n"
 elif [ "$number" -eq "1" ]
     then
         echo -en "\n $number renamed.\n"
